@@ -299,6 +299,47 @@ tbody .action-btn .delete {
   text-align: center;
 }
 
+.user-info {
+  border: 1px solid;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.user-info .form-input {
+  display: flex;
+}
+
+.user-picture {
+  width: 100px; /* Atur sesuai kebutuhan Anda */
+  height: auto;
+  margin-right: 20px; /* Jarak antara gambar dan form */
+}
+
+.user-form {
+  display: grid;
+}
+
+.user-info form {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.user-form label {
+  margin-bottom: 5px;
+}
+
+.user-form input {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 200px; /* Atur sesuai kebutuhan Anda */
+}
+
+.user-info button {
+  padding: 5px 10px;
+}
+
 @media only screen and (min-width: 769px) {
   .film-container {
     grid-template-columns: repeat(6, 1fr);
